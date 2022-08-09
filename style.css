@@ -15,12 +15,8 @@ svg {
     border: 2px solid green;
 }
 
-#container {
+#base {
     position:absolute;
-    top: 250;
-}
-
-[data-spirit-id~="grid"] {
-    left: 30;
-    top: -5;
+    margin-top: 250;
+    border: 1px solid blue;
 }
