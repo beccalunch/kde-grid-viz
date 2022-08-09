@@ -1,1 +1,30 @@
-{"version_app":"1.2.0","version_extension":"1.3.13","version_runtime":"3.1.6","groups":[{"root":{"path":"/html[1]/body[1]","id":null},"name":"text","timeScale":1,"timelines":[{"type":"dom","props":{"opacity":{"0s":"0","1.0008171237244898s":"0","1.5143046476403064s":"1"}},"label":"#text","path":"div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][17]","id":"text"}]}]}
+{
+    "version_app": "1.2.0",
+    "version_extension": "1.3.13",
+    "version_runtime": "3.1.6",
+    "groups": [
+        {
+            "root": {
+                "path": "/html[1]/body[1]",
+                "id": null
+            },
+            "name": "text",
+            "timeScale": 1,
+            "timelines": [
+                {
+                    "type": "dom",
+                    "props": {
+                        "opacity": {
+                            "0s": "0",
+                            "1.0008171237244898s": "0",
+                            "1.5143046476403064s": "1"
+                        }
+                    },
+                    "label": "#text",
+                    "path": "div[1]/*[local-name()='svg'][1]/*[local-name()='g'][1]/*[local-name()='path'][17]",
+                    "id": "text"
+                }
+            ]
+        }
+    ]
+}
