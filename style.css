@@ -1,5 +1,26 @@
 #animate {
-    margin-top: 400px;
-    margin-left: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 150px;
     margin-bottom: 100px;
+    border: 2px solid red;
+}
+
+svg {
+    position:absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid green;
+}
+
+#container {
+    position:absolute;
+    top: 250;
+}
+
+[data-spirit-id~="grid"] {
+    left: 30;
+    top: -5;
 }
